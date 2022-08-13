@@ -1,4 +1,4 @@
-/*
+
 Syntax for CSS
 
 Selector {
@@ -74,6 +74,7 @@ ul {
 /* Class Selector */
 .tools {
 	border: 5px solid #f2f2f2;
+	border-radius: 20px;
 	height: 200px;
 	width: 75%;
 	margin: 20px;
@@ -81,9 +82,18 @@ ul {
 }
 
 h2 {
-	color: #007bff;
+	color: lightpink;
 }
 
+/* additionals */
+nav {
+	background-color: lightpink;
+}
+
+
+span {
+	color: deeppink;
+}
 
 /*
 
@@ -93,4 +103,3 @@ bg-warning
 
 
 
-*/
