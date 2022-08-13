@@ -1,0 +1,96 @@
+/*
+Syntax for CSS
+
+Selector {
+	property: value;
+}
+*/
+
+/*
+SPECIFICITY RULE/ HIERARCHY:
+(Higher Priority) 
+Id
+Class
+Element
+Universal
+(Least Priority)
+*/
+
+/* Universal Selector */
+* {
+	font-family: "Roboto", sans-serif; /*main font, back-up font*/
+}
+
+/* Element Selector */
+h1, h2 {
+	font-family: "Montserrat", sans-serif;
+}
+
+img {
+	height: 250px;
+	width: 250px;
+	border: 5px solid lightpink;
+	border-radius: 100%;
+}
+
+/* ID Selector */
+#landing {
+	height: 90vh; /* vh = viewportheight (like % but vertically/pataas) */
+
+	/* flexbox = allows us to arrange or layout elementss inside our landing section horizontally and vertically */
+	display: flex; 
+
+	/* flex = flexible responsive layout left to right display /by column */
+	
+	
+
+	/* these 3 are useless without or is dependent to display: flex: 
+
+	1. flex-direction:  column; = arranges flex items into a column
+	2. justify-content: center; = arranges elements horizontally of the flex items are in a row, however, it arranges elements vertically if the flex items are in a column
+	3. align-items: center; = arranges all flex items to be centered vertically
+	*/
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#gallery {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 6px;
+}
+
+ul {
+	list-style: none;
+	/* padding = spaces around an element */
+	/* margin = spaces between different elements*/
+	padding: 0;
+}
+
+/* Class Selector */
+.tools {
+	border: 5px solid #f2f2f2;
+	height: 200px;
+	width: 75%;
+	margin: 20px;
+	padding: 25px;
+}
+
+h2 {
+	color: #007bff;
+}
+
+
+/*
+
+bg color of navbar
+
+bg-warning
+
+
+
+*/
